@@ -1,0 +1,20 @@
+# Security: Ignore all private key files
+*.key
+*.pem
+
+# Security: Ignore environment file variables
+.env
+config.json
+
+# Dependencies: Ignore local virtual environments (Python/Node)
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+
+# System / IDE configuration files
+.DS_Store
+.vscode/
+node_modules/
